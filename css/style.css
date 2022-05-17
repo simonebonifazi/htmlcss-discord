@@ -55,11 +55,13 @@ body {
     margin-bottom: 50px;
 }
 
-.debug a {
-    text-decoration: none;
-    color: white;
+.debug 
     border: 1px solid white;
 } */
+a {
+    text-decoration: none;
+    color: white;
+}
 
 /* header */
 header {
@@ -269,6 +271,11 @@ footer h3 {
     color: #7289DA;
 }
 
+h5 {
+    color: #7289DA;
+    margin-top: 40px;
+}
+
 .flag {
     vertical-align: middle;
     max-height: 35px;
@@ -298,7 +305,13 @@ footer a {
     text-decoration: none;
     margin-right: 15px;
     font-size: 40px;
+
+}
+
+p>a {
+    text-decoration: none;
     color: white;
+    font-size: medium;
 }
 
 .footer-bottom {
@@ -308,4 +321,5 @@ footer a {
 .footer-bottom button {
     color: white;
     background-color: #8EA1E1;
+
 }
