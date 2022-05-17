@@ -19,9 +19,9 @@ body {
     display: flex;
 }
 
-.debug .border {
+/* .debug .border {
     border: 1px white dashed;
-}
+} */
 
 .p-15 {
     padding: 15px;
@@ -39,7 +39,8 @@ body {
     background-color: grey;
 }
 
-.debug h1 {
+
+/* .debug h1 {
     min-height: 35px;
     margin: 0 auto;
 }
@@ -58,13 +59,13 @@ body {
     text-decoration: none;
     color: white;
     border: 1px solid white;
-}
+} */
 
 /* header */
 header {
     min-height: 450px;
-    background-color: #3161E0
-        /* backround-image: url('') */
+    background-color: #255EE9;
+    color: white;
 }
 
 .navbar {
@@ -75,7 +76,7 @@ header {
 }
 
 .navbar>div {
-    flex-basis: 25%;
+    flex-basis: 15%;
 }
 
 .central-nav {
@@ -87,22 +88,57 @@ header {
     text-align: right;
 }
 
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+button>a {
+    color: #2A2E31;
+}
+
+
 /* jumbotron */
 #jumbotron {
-    background-color: #4e78eb;
-    height: 100%;
+    background-image: url('../images/jumbo.png');
+    background-size: cover;
+    background-position: center;
 }
 
 .text-container {
     flex-direction: column;
     justify-content: center;
-    min-height: 300px;
-    max-width: 55%;
+    min-height: 470px;
+    max-width: 45%;
     margin: 0 auto;
     text-align: center;
 
 }
 
+/* font adjustment */
+h1 {
+    font-size: 50px;
+
+}
+
+p {
+    font-size: larger;
+    line-height: 30px;
+}
+
+/* bottoni */
+button {
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    padding: 14.5px;
+}
+
+#obscure {
+    background-color: #23272A;
+    color: white;
+    margin-left: 20px;
+}
 
 /* fine header */
 
